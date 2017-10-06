@@ -11,6 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -18,8 +19,8 @@
     <!-- add signup for newsletter button...to open MODAL link... imclude the information about us-->
     <!-- Add contact us via email button ...to open Modal..also have a link include in about us page.-->
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top ">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-md  navbar-dark bg-dark sticky-top navcolor ">
+        <a class="navbar-brand" href="index.html">
             <img src="img/lcslogo.png" width="70" height="50" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,96 +46,97 @@
     <!-- /NavBar -->
 
     <!-- cards and carousel container -->
-    <div class=" container-full" style="background-color:rgba(0,0,0,.8);">
-        <div id="about" class="row mx-auto">
-
-            <!-- container for first card and -->
-            <div class=" py-3 col-lg-3 col-sm-6 order-1 order-lg-1">
-                <!-- <div class="card "> -->
-                <img class=" d-block img-fluid border mx-auto" src="img/axeman2.jpg" alt="Card image cap">
-                <!-- <div class="card-block">
-                        <h4 class="card-title">contact us</h4>
-                        <p class="card-text">button place holder</p>
-                    </div> -->
-                <!-- </div> -->
-            </div>
-            <!-- /first card -->
-
-            <!-- image carousel -->
-            <div class="col-lg-6 col-sm-12 order-lg-2 py-3">
-                <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block img-fluid mx-auto " src="img/artjams.jpg" alt="First slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid mx-auto " src="img/lcslogolg.jpg" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid mx-auto " src="img/legends.jpg" alt="Third slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block img-fluid mx-auto " src="img/zbar.jpg" alt="Third slide">
-                        </div>
+    <div class="container maincontain pt-3 mt-3">
+        <!-- image carousel -->
+        <div class="col-lg-12 col-sm-12 order-lg-2 py-3 bgblack">
+            <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid mx-auto " src="img/legends.jpg" alt="First slide">
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid mx-auto " src="img/lcslogolg.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid mx-auto " src="img/artjams.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid mx-auto " src="img/zbar.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!-- /image carousel -->
+
+
+
+
+
+
+
+        <hr>
+
+        <!-- body content and information -->
+        <!-- About LCS -->
+        <div class="container">
+            <div id="about" class="row align-items-start  mt-3">
+                <div class="col-lg-4 flex-first">
+                    <h3 class="mb-4 text-center">Up Coming Events</h3>
+                    <p></p>
+                </div>
+                <div class="col-lg-4 ">
+                    <h3 class="mb-4 text-center">Who We Are</h3>
+                    <p class="LCS">The Louisville Cartoonist Society (LCS) is a Louisville, Kentucky based independent comics group, formed in 2009 by a group of artists who all shared the same goal…making comics. The society members focus on sharing ideas, collaborating
+                        on comic books, critiquing each others’ work and the larger task of promoting and selling our own self-published books. We encourage the creation of new comics and help local artists connect to their audience. Cartoonists unite!</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h3 class="mb-4 text-center">What We Do!!</h3>
+                    <div class="list-group">
+                        <a href="drinkanddraw.html" class="list-group-item"><strong>Drink and Draw</strong></a>
+                        <a href="#" class="list-group-item"><strong>Art Jams</strong></a>
+                        <a href="#" class="list-group-item"><strong>Local Events</strong></a>
+                        <a href="#" class="list-group-item"><strong>Art Exchange</strong></a>
+                    </div>
                 </div>
             </div>
-            <!-- /image carousel -->
+        </div>
+        <!-- /about -->
+
+        <hr>
 
 
-            <!-- container for Second card -->
-            <div class=" py-3 col-lg-3 col-sm-6 order-2 order-lg-3">
-                <!-- <div class="card "> -->
-                <img class="d-block img-fluid border mx-auto" src="img/momo2.jpg" alt="Card image cap">
-                <!-- <div class="card-block">
-                        <h4 class="card-title">sign up for newsletter</h4>
-                        <p class="card-text">button place holder</p>
-                    </div> -->
-                <!-- </div> -->
+        <!-- /cards and carousel container -->
+        <div class="container pb-lg-5">
+            <div class="row">
+                <!-- container for first img -->
+                <div class=" col-lg-6">
+                    <div id="firstImg"> </div>
+                </div>
+                <!-- /first card -->
+                <!-- container for Second img -->
+                <div class="col-lg-6">
+                    <div class="mt-lg-0 mt-md-4  mt-5" id="secondImg"></div>
+                </div>
+                <!-- /second img -->
             </div>
         </div>
-    </div>
-    <!-- /second card -->
-    <!-- /cards and carousel container -->
 
-
-    <!-- body content and information -->
-    <!-- About LCS -->
-    <div id="about" class="row align-items-start mx-auto mt-3">
-        <div class="col-lg-4 flex-first">
-            <h3 class="mb-4">Up Coming Events</h3>
-            <p></p>
-        </div>
-        <div class="col-lg-4 ">
-            <h3 class="mb-4">Who We Are</h3>
-            <p>The Louisville Cartoonist Society (LCS) is a Louisville, Kentucky based independent comics group, formed in 2009 by a group of artists who all shared the same goal…making comics. The society members focus on sharing ideas, collaborating on
-                comic books, critiquing each others’ work and the larger task of promoting and selling our own self-published books. We encourage the creation of new comics and help local artists connect to their audience. Cartoonists unite!</p>
-        </div>
-        <div class="col-lg-4">
-            <h3 class="mb-4">What We Do!!</h3>
-            <div class="list-group">
-                <a href="#" class="list-group-item"><strong>Drink and Draw</strong></a>
-                <a href="#" class="list-group-item"><strong>Art Jams</strong></a>
-                <a href="#" class="list-group-item"><strong>Local Events</strong></a>
-                <a href="#" class="list-group-item"><strong>Art Exchange</strong></a>
-            </div>
-        </div>
+        <!--/ main container -->
     </div>
-    <!-- about -->
 
     <!-- news feed left or right-->
 
@@ -158,6 +160,49 @@
 
 <footer>
     <!-- lower links... copyright information -->
+    <div class="container pt-5 footercolors mb-4">
+        <div class="row text-center">
+            <div class="col-lg-3 col-6 mb-4">
+                <h5 class=" mb-0">Artist Blogroll</h5>
+                <ul>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-6 mb-4">
+                <h5 class=" mb-0 ">LCS Retailers</h5>
+                <ul>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-6 mb-4">
+                <h5 class=" mb-0 ">Other Stuff</h5>
+                <ul>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-6 mb-4">
+                <h5 class=" mb-0">More Stuff</h5>
+                <ul>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                    <li><a href="">link</a></li>
+                </ul>
+            </div>
+        </div>
 </footer>
 
 </html>
