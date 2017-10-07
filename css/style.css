@@ -78,7 +78,7 @@ p.lcs:first-letter {
 .linkStyles a {
     color: rgba(49, 49, 49, 0.8);
     text-decoration: none;
-    font: normal 1rem Sans-Serif;
+    font: normal .8rem Sans-Serif;
 }
 
 
