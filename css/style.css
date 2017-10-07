@@ -70,6 +70,35 @@ p.lcs:first-letter {
     border-left: 2px solid rgb(175, 175, 175);
 }
 
-ul {
+.linkStyles {
     list-style: none;
+    padding-left: 0;
 }
+
+.linkStyles a {
+    color: rgba(49, 49, 49, 0.8);
+    text-decoration: none;
+    font: normal 1rem Sans-Serif;
+}
+
+
+/*.linkStyles a:visited {
+    color: #00FF00;
+} */
+
+
+/* visited link */
+
+.linkStyles a:hover {
+    color: #000000;
+}
+
+
+/* mouse over link */
+
+.linkStyles a:active {
+    color: #FFFFFF;
+}
+
+
+/* selected link */
