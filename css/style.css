@@ -2,7 +2,7 @@
                     background-image: url('axeman3.jpg');
                     min-height: 400px;
                     max-width: 500px;
-                    border: 5px solid #2C2C3B;
+                    border: 2px solid rgba(44, 44, 59, 0.685);
                     background-repeat: no-repeat;
                     margin: auto;
                     background-position: center center;
@@ -13,7 +13,7 @@
                     background-size: auto;
                     min-height: 400px;
                     max-width: 500px;
-                    border: 5px solid #2C2C3B;
+                    border: 2px solid rgba(44, 44, 59, 0.685);
                     background-repeat: no-repeat;
                     margin: auto;
                     background-position: center center;
@@ -29,12 +29,24 @@
                 
                 .firstImgbtn,
                 .secondImgbtn {
-                    max-height: 20%;
+                    max-height: 50%;
                     width: 85%;
                     margin-bottom: 5px;
-                    background-color: rgb(198, 211, 125);
-                    color: black;
-                    padding: 10px 0 10px 0;
+                    white-space: normal;
+                    font-size: 1.2em;
+                    font-weight: bold;
+                    /* text-transform: uppercase; */
+                    padding: 10px 15px;
+                    margin: 20px auto;
+                    color: rgb(230, 230, 230);
+                    background-color: rgb(126, 125, 125);
+                    background: -webkit-linear-gradient(rgb(231, 243, 68), rgb(219, 101, 32));
+                    background: linear-gradient(rgb(231, 243, 68), rgb(219, 101, 32));
+                    border: 0 none;
+                    border-radius: 3px;
+                    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.555);
+                    box-shadow: 0 1px 0 rgb(53, 53, 53), 0 5px 0 rgb(54, 54, 54), 0 6px 6px rgba(0, 0, 0, 0.6);
+                    cursor: pointer;
                 }
                 
                 hr {
