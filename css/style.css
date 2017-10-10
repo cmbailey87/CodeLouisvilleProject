@@ -48,7 +48,7 @@
                 
                 body {
                     background-color: rgb(218, 218, 218);
-                    background-image:
+                    /* background-image: */
                 }
                 
                 .navcolor {
@@ -99,8 +99,8 @@
                 #iconRanch {
                     display: none;
                 }
+                /* // bigger screens */
                 
-                // bigger screens
                 @media (max-width: 992px) {
                     #iconRanch {
                         display: inline-block;
