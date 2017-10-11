@@ -1,138 +1,194 @@
-                #firstImg {
-                    background-image: url('axeman3.jpg');
-                    min-height: 400px;
-                    max-width: 500px;
-                    border: 2px solid rgba(44, 44, 59, 0.685);
-                    background-repeat: no-repeat;
-                    margin: auto;
-                    background-position: center center;
-                }
-                
-                #secondImg {
-                    background-image: url('momo3.jpg');
-                    background-size: auto;
-                    min-height: 400px;
-                    max-width: 500px;
-                    border: 2px solid rgba(44, 44, 59, 0.685);
-                    background-repeat: no-repeat;
-                    margin: auto;
-                    background-position: center center;
-                }
-                /* bottom image flexbox */
-                
-                #firstImg,
-                #secondImg {
-                    display: flex;
-                    justify-content: center;
-                    align-items: flex-end;
-                }
-                
-                .firstImgbtn,
-                .secondImgbtn {
-                    max-height: 50%;
-                    width: 85%;
-                    margin-bottom: 5px;
-                    white-space: normal;
-                    font-size: 1.2em;
-                    font-weight: bold;
-                    /* text-transform: uppercase; */
-                    padding: 10px 15px;
-                    margin: 20px auto;
-                    color: rgb(230, 230, 230);
-                    background-color: rgb(126, 125, 125);
-                    background: -webkit-linear-gradient(rgb(231, 243, 68), rgb(219, 101, 32));
-                    background: linear-gradient(rgb(231, 243, 68), rgb(219, 101, 32));
-                    border: 0 none;
-                    border-radius: 3px;
-                    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.555);
-                    box-shadow: 0 1px 0 rgb(53, 53, 53), 0 5px 0 rgb(54, 54, 54), 0 6px 6px rgba(0, 0, 0, 0.6);
-                    cursor: pointer;
-                }
-                
-                hr {
-                    border: 0;
-                    height: 5px;
-                    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
-                    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
-                    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
-                    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
-                    margin: 25px;
-                }
-                
-                .bgblack {
-                    background-color: rgba(0, 0, 0, .8);
-                }
-                
-                #about {
-                    border-top: 2px solid rgb(175, 175, 175);
-                    border-bottom: 2px solid rgb(175, 175, 175);
-                }
-                
-                .maincontain {
-                    border-top: 2px solid rgb(175, 175, 175);
-                    border-right: 2px solid rgb(175, 175, 175);
-                    border-left: 2px solid rgb(175, 175, 175);
-                    margin: auto;
-                    background-color: rgba(255, 255, 255, 0.77);
-                }
-                
-                body {
-                    background-color: rgb(218, 218, 218);
-                    /* background-image: */
-                }
-                
-                .navcolor {
-                    background-color: rgb(114, 35, 35);
-                }
-                
-                p.lcs:first-letter {
-                    font-size: 50px;
-                    float: left;
-                    /* margin: 20px 20px 0 0; */
-                    line-height: 0.8;
-                }
-                
-                .footercolors {
-                    background-color: rgb(238, 238, 238);
-                    border-top: 1px solid rgb(175, 175, 175);
-                    border-bottom: 3px solid rgb(175, 175, 175);
-                    border-right: 2px solid rgb(175, 175, 175);
-                    border-left: 2px solid rgb(175, 175, 175);
-                }
-                
-                .linkStyles {
-                    list-style: none;
-                    padding-left: 0;
-                }
-                
-                .linkStyles a {
-                    color: rgba(49, 49, 49, 0.8);
-                    text-decoration: none;
-                    font: normal .8rem Sans-Serif;
-                }
-                /*.linkStyles a:visited {
+/* font-family: 'Gravitas One', cursive;
+font-family: 'Monoton', cursive;                 */
+
+.lcshead {
+    text-align: center;
+    font-family: 'Monoton', bold;
+    font-size: 4rem;
+}
+
+#firstImg {
+    background-image: url('axeman3.jpg');
+    min-height: 400px;
+    max-width: 500px;
+    border: 2px solid rgba(44, 44, 59, 0.685);
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position: center center;
+}
+
+#secondImg {
+    background-image: url('momo3.jpg');
+    background-size: auto;
+    min-height: 400px;
+    max-width: 500px;
+    border: 2px solid rgba(44, 44, 59, 0.685);
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position: center center;
+}
+
+
+/* bottom image flexbox */
+
+#firstImg,
+#secondImg {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.firstImgbtn {
+    color: rgb(230, 230, 230);
+    background-color: rgb(126, 125, 125);
+    background: -webkit-linear-gradient(rgb(231, 243, 68), rgb(219, 101, 32));
+    background: linear-gradient(rgb(231, 243, 68), rgb(219, 101, 32));
+    border: 0 none;
+    border-radius: 3px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.555);
+    box-shadow: 0 1px 0 rgb(53, 53, 53), 0 5px 0 rgb(54, 54, 54), 0 0px 0px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.secondImgbtn {
+    max-height: 50%;
+    width: 85%;
+    margin-bottom: 5px;
+    white-space: normal;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    padding: 10px 15px;
+    margin: 20px auto;
+    color: rgb(230, 230, 230);
+    background-color: rgb(126, 125, 125);
+    background: -webkit-linear-gradient(rgb(231, 243, 68), rgb(219, 101, 32));
+    background: linear-gradient(rgb(231, 243, 68), rgb(219, 101, 32));
+    border: 0 none;
+    border-radius: 3px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.555);
+    box-shadow: 0 1px 0 rgb(53, 53, 53), 0 5px 0 rgb(54, 54, 54), 0 6px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+hr {
+    border: 0;
+    height: 5px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    margin: 25px;
+}
+
+.bgblack {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+#about {
+    border-top: 2px solid rgb(175, 175, 175);
+    border-bottom: 2px solid rgb(175, 175, 175);
+}
+
+.maincontain {
+    border-top: 2px solid rgb(175, 175, 175);
+    border-right: 2px solid rgb(175, 175, 175);
+    border-left: 2px solid rgb(175, 175, 175);
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.77);
+}
+
+body {
+    background-color: rgb(218, 218, 218);
+    /* background-image: */
+}
+
+.navcolor {
+    background-color: rgb(114, 35, 35);
+}
+
+p.lcs:first-letter {
+    font-size: 50px;
+    float: left;
+    /* margin: 20px 20px 0 0; */
+    line-height: 0.8;
+}
+
+.footercolors {
+    background-color: rgb(238, 238, 238);
+    border-top: 1px solid rgb(175, 175, 175);
+    /* border-bottom: 3px solid rgb(175, 175, 175); */
+    /* border-right: 2px solid rgb(175, 175, 175);
+                    border-left: 2px solid rgb(175, 175, 175); */
+}
+
+.linkStyles {
+    list-style: none;
+    padding-left: 0;
+}
+
+.linkStyles a {
+    color: rgba(49, 49, 49, 0.8);
+    text-decoration: none;
+    font: normal .8rem Sans-Serif;
+}
+
+
+/*.linkStyles a:visited {
     color: #00FF00;
 } */
-                /* visited link */
-                
-                .linkStyles a:hover {
-                    color: #000000;
-                }
-                /* mouse over link */
-                
-                .linkStyles a:active {
-                    color: #FFFFFF;
-                }
-                /* selected link */
-                /* media query for icons */
-                
-                #iconRanch {
-                    display: none;
-                }
-                /* // bigger screens */
-                
-                @media (max-width: 992px) {
-                    #iconRanch {
-                        display: inline-block;
-                    }
-                }
+
+
+/* visited link */
+
+.linkStyles a:hover {
+    color: #000000;
+}
+
+
+/* mouse over link */
+
+.linkStyles a:active {
+    color: #FFFFFF;
+}
+
+
+/* selected link */
+
+
+/* media query for icons */
+
+#iconRanch {
+    display: none;
+}
+
+
+/* // bigger screens */
+
+@media (max-width: 992px) {
+    #iconRanch {
+        display: inline-block;
+    }
+}
+
+
+/* ABOUT PAGE */
+
+.aboutrow {
+    border: 2px solid rgba(100, 100, 100, 0.473);
+    padding: 5px;
+}
+
+#abouttxt {
+    border: 2px solid rgba(138, 137, 137, 0.26);
+    background-color: rgba(228, 228, 228, 0.8)
+}
+
+#abouttxt p:first-letter {
+    font-size: 50px;
+    float: left;
+    /* margin: 20px 20px 0 0; */
+    line-height: 0.8;
+}
