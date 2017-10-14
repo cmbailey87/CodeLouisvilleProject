@@ -1,6 +1,28 @@
 /* font-family: 'Gravitas One', cursive;
 font-family: 'Monoton', cursive;                 */
 
+#carousel {
+    display: block;
+    position: relative;
+    border: 5px solid rgba(129, 88, 131, 0.15)
+}
+
+#carousel::after {
+    content: "";
+    background: url(lcscon.jpg);
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.carouselimgs {
+    box-shadow: 5px 10px 20px rgba(75, 74, 74, 0.418), 5px 15px 20px rgba(75, 74, 74, 0.692);
+}
+
 .lcshead {
     text-align: center;
     font-family: 'Monoton', bold;
@@ -15,6 +37,7 @@ font-family: 'Monoton', cursive;                 */
     background-repeat: no-repeat;
     margin: auto;
     background-position: center center;
+    box-shadow: 0 10px 20px rgba(75, 74, 74, 0.418), 0 15px 20px rgba(75, 74, 74, 0.692);
 }
 
 #secondImg {
@@ -26,6 +49,7 @@ font-family: 'Monoton', cursive;                 */
     background-repeat: no-repeat;
     margin: auto;
     background-position: center center;
+    box-shadow: 0 10px 20px rgba(75, 74, 74, 0.418), 0 15px 20px rgba(75, 74, 74, 0.692);
 }
 
 
@@ -105,9 +129,12 @@ body {
     /* background-image: */
 }
 
-.navcolor {
-    background-color: rgb(114, 35, 35);
+#navlinks {
+    font-size: 18px;
+    font-weight: bold;
 }
+
+.navcolor {}
 
 p.lcs:first-letter {
     font-size: 50px;
