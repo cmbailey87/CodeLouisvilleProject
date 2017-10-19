@@ -211,7 +211,7 @@ p.lcs:first-letter {
 
 #abouttxt {
     border: 2px solid rgba(138, 137, 137, 0.26);
-    background-color: rgba(228, 228, 228, 0.8)
+    background-color: rgba(228, 228, 228, 0.8);
 }
 
 #abouttxt p:first-letter {
@@ -219,6 +219,29 @@ p.lcs:first-letter {
     float: left;
     /* margin: 20px 20px 0 0; */
     line-height: 0.8;
+}
+
+
+/* Projects */
+
+.projectrow {
+    border: 2px solid rgba(100, 100, 100, 0.473);
+    padding: 5px;
+}
+
+.projectstxt {
+    border: 2px solid rgba(138, 137, 137, 0.26);
+    background-color: rgba(228, 228, 228, 0.8);
+    font-size: 1.5rem;
+}
+
+.projectstxt p:first-letter {
+    font-size: 8rem;
+    float: left;
+    /* margin: 20px 20px 0 0; */
+    line-height: 0.8;
+    /* border: 1px solid rgb(199, 199, 199);
+    background-color: white; */
 }
 
 
