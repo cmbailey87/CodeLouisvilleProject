@@ -42,7 +42,6 @@ font-family: 'Monoton', cursive;                 */
 
 #secondImg {
     background-image: url('momo3.jpg');
-    background-size: auto;
     min-height: 400px;
     max-width: 500px;
     border: 2px solid rgba(44, 44, 59, 0.685);
@@ -84,7 +83,7 @@ font-family: 'Monoton', cursive;                 */
     font-size: 1.2em;
     font-weight: bold;
     /* text-transform: uppercase; */
-    padding: 10px 15px;
+    padding: 5px 8px;
     margin: 20px auto;
     color: rgb(230, 230, 230);
     background-color: rgb(126, 125, 125);
@@ -134,7 +133,8 @@ body {
     font-weight: bold;
 }
 
-.navcolor {}
+
+/* .navcolor {} */
 
 p.lcs:first-letter {
     font-size: 50px;
