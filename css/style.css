@@ -4,7 +4,7 @@ font-family: 'Monoton', cursive;                 */
 #carousel {
     display: block;
     position: relative;
-    border: 5px solid rgba(129, 88, 131, 0.15)
+    /* border: 5px solid rgba(129, 88, 131, 0.15) */
 }
 
 #carousel::after {
@@ -106,9 +106,10 @@ hr {
     margin: 25px;
 }
 
-.bgblack {
+
+/* .bgblack {
     background-color: rgba(0, 0, 0, .8);
-}
+} */
 
 #about {
     border-top: 2px solid rgb(175, 175, 175);
@@ -201,7 +202,7 @@ p.lcs:first-letter {
 }
 
 
-/* ABOUT PAGE */
+/* ABOUT  */
 
 .aboutrow {
     border: 2px solid rgba(100, 100, 100, 0.473);
