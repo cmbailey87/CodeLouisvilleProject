@@ -106,6 +106,29 @@ hr {
     margin: 25px;
 }
 
+.homeHeadersBG {
+    -webkit-transform: skew(-50deg);
+    -moz-transform: skew(-50deg);
+    -o-transform: skew(-50deg);
+    transform: skew(-50deg);
+    background: white;
+    color: black;
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+    left: -40px;
+    max-width: 95%;
+}
+
+.homeHeaders {
+    -webkit-transform: skew(50deg);
+    -moz-transform: skew(50deg);
+    -o-transform: skew(50deg);
+    transform: skew(50deg);
+    padding-left: 10px;
+    font-size: 5vh;
+}
+
 
 /* .bgblack {
     background-color: rgba(0, 0, 0, .8);
@@ -118,7 +141,7 @@ hr {
 
 .maincontain {
     border-top: 2px solid rgb(175, 175, 175);
-    border-right: 2px solid rgb(175, 175, 175);
+    border-bottom: 2px solid rgb(175, 175, 175);
     border-left: 2px solid rgb(175, 175, 175);
     margin: auto;
     background-color: rgba(255, 255, 255, 0.77);
