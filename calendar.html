@@ -33,19 +33,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav" id="navlinks">
                 <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Home </a>
+                    <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="about.html">About</a>
+                    <a class="nav-link " href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#events">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#contact">Contact Us</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="events.html">Events</a>
+                    <a class="nav-link" href="calendar.html">Calendar</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="projects.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="contact.html">Contact Us <span class="sr-only">Contact Us </span></a>
                 </li>
             </ul>
         </div>
@@ -72,68 +75,24 @@
     </nav>
     <!-- /top NavBar -->
 
-
-    <!-- contact and newsletter container -->
-    <div id="maincontactdiv" class="container maincontain pt-3 mt-3">
-        <div class="container ">
-            <!-- contact -form -->
-            <div class="row rowbg">
-                <div class="col-lg-5 contactForm">
-                    <h3> Contact US!</h3>
-                    <form>
-
-
-                        <div class="form-group">
-                            <label for="name">Name:</label>
-                            <input type="text" class="form-control" id="name" placeholder="name">
-                        </div>
-                        <div class="form-group">
-                            <label for="name">Organization (optional):</label>
-                            <input type="text" class="form-control" id="name" placeholder="Organizaion">
-                        </div>
-                        <!-- giving a a form label for control label adds padding, so you have to remove it it to keep everythign lined up correctly -->
-                        <!-- has danger is the validation style for red highlight -->
-                        <div class="form-group has-danger">
-                            <!-- form control label lets to lavel enherit the validations style -->
-                            <label for="mail" class="form-control-label pl-0">Email:</label>
-                            <!-- adding form control danger to the input field adds the red X -->
-                            <input type="mail" class="form-control form-control-danger" id="mail" placeholder="example@domain.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="message" class="control-label">Message</label>
-                            <div class="col-sm-12">
-                                <textarea class="form-control" rows="4" name="message"></textarea>
-                            </div>
-                        </div>
-                        <hr mb-2>
-                        <button type="submit" class="btn submitbtn"> Submit</button>
-                    </form>
-                </div>
-                <!-- / contact form -->
-                <div class="col-lg-7">
-                    <img style="border: 2px solid rgba(83, 83, 83, 0.144)" class="d-block img-fluid mx-auto" src="img/lcslogolg.jpg" alt="lousiville cartoonist society group photo">
-                </div>
-            </div>
-        </div>
-        <!-- /contact form -->
-
-        <!-- newsletter -->
-        <div class="">
-            <h3 class="mt-4" style="text-align:center;">Sign up for the LCS NewsLetter!!</h3>
-            <div class="input-group col-md-8 col-12 mb-4 mx-auto">
-                <input type="text" class="form-control" placeholder="example@domain.com" aria-label="Search for...">
-                <span class="input-group-btn">
-                <button class="btn submitbtn " type="button">submit</button>
-              </span>
-            </div>
-        </div>
-        <!-- /newsleetter -->
-
-    </div>
-
-    <!-- /contact and newsletter container -->
-
 </body>
+<!-- events calendar -->
+<hr>
+
+<h3 class="text-center">LCS Calendar</h3>
+
+<hr>
+<!-- google calendar -->
+<div class="container">
+    <div class="row justify-content-center">
+        <iframe class="mb-3" src="https://calendar.google.com/calendar/embed?title=LCS%20Events%20Calendar&amp;height=600&amp;wkst=1&amp;bgcolor=%23ccccff&amp;src=lcscomics%40gmail.com&amp;color=%235229A3&amp;ctz=America%2FNew_York" style="border:solid 1px #777"
+            width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+</div>
+<!-- /google calendar -->
+<!-- /events calendar -->
+
+
 <footer class="footercolors ">
     <!-- lower links... copyright information -->
     <div class=" container px-4">
@@ -182,5 +141,6 @@
             </div>
         </div>
 </footer>
+
 
 </html>
