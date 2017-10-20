@@ -118,7 +118,7 @@ hr {
     position: relative;
     left: -40px;
     max-width: 95%;
-    box-shadow: 20px 10px 2px rgba(75, 74, 74, 0.418), 20px 10px 2px rgba(75, 74, 74, 0.692);
+    box-shadow: 20px 10px 7px rgba(54, 95, 129, 0.42), 20px 10px 9.5px rgba(47, 103, 168, 0.69);
     margin-bottom: 20px;
 }
 
