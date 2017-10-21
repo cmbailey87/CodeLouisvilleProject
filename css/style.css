@@ -20,13 +20,24 @@ font-family: 'Monoton', cursive;                 */
 }
 
 .carouselimgs {
-    box-shadow: 5px 10px 20px rgba(75, 74, 74, 0.418), 5px 15px 20px rgba(75, 74, 74, 0.692);
+    box-shadow: 5px 10px 20px rgba(107, 107, 126, 0.418), 5px 15px 20px rgba(83, 85, 116, 0.692);
 }
 
 .lcshead {
     text-align: center;
     font-family: 'Monoton', bold;
     font-size: 4rem;
+}
+
+.titleDiv {
+    background: rgb(211, 184, 219);
+    color: black;
+    padding: 10px 0;
+}
+
+.mainTitle {
+    font-size: 7vw;
+    font-family: 'Kavoon', cursive;
 }
 
 #firstImg {
@@ -111,14 +122,14 @@ hr {
     -moz-transform: skew(-50deg);
     -o-transform: skew(-50deg);
     transform: skew(-50deg);
-    background: white;
+    background: rgb(194, 194, 194);
     color: black;
     padding: 10px 0;
     overflow: hidden;
     position: relative;
-    left: -40px;
-    max-width: 95%;
-    box-shadow: 20px 10px 7px rgba(54, 95, 129, 0.42), 20px 10px 9.5px rgba(47, 103, 168, 0.69);
+    left: -55px;
+    max-width: 90%;
+    box-shadow: 10px 5px 7px rgba(54, 95, 129, 0.158), 20px 10px 9.5px rgba(47, 106, 168, 0.322);
     margin-bottom: 20px;
 }
 
@@ -128,7 +139,8 @@ hr {
     -o-transform: skew(50deg);
     transform: skew(50deg);
     padding-left: 10px;
-    font-size: 5vh;
+    font-size: 4.5vw;
+    font-family: 'Kavoon', cursive;
 }
 
 
@@ -283,7 +295,7 @@ p.lcs:first-letter {
 }
 
 .contactForm {
-    background-color: rgba(182, 182, 182, 0.8);
+    background-color: rgba(153, 147, 194, 0.8);
     padding-top: 5px;
 }
 
