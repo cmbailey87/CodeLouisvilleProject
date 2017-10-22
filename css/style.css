@@ -1,10 +1,43 @@
 /* font-family: 'Gravitas One', cursive;
 font-family: 'Monoton', cursive;                 */
 
+#carousel {
+    display: block;
+    position: relative;
+    /* border: 5px solid rgba(129, 88, 131, 0.15) */
+}
+
+#carousel::after {
+    content: "";
+    background: url(lcscon.jpg);
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.carouselimgs {
+    box-shadow: 5px 10px 20px rgba(107, 107, 126, 0.418), 5px 15px 20px rgba(83, 85, 116, 0.692);
+}
+
 .lcshead {
     text-align: center;
     font-family: 'Monoton', bold;
     font-size: 4rem;
+}
+
+.titleDiv {
+    background: rgb(211, 184, 219);
+    color: black;
+    padding: 10px 0;
+}
+
+.mainTitle {
+    font-size: 7vw;
+    font-family: 'Kavoon', cursive;
 }
 
 #firstImg {
@@ -15,17 +48,18 @@ font-family: 'Monoton', cursive;                 */
     background-repeat: no-repeat;
     margin: auto;
     background-position: center center;
+    box-shadow: 0 10px 20px rgba(75, 74, 74, 0.418), 0 15px 20px rgba(75, 74, 74, 0.692);
 }
 
 #secondImg {
     background-image: url('momo3.jpg');
-    background-size: auto;
     min-height: 400px;
     max-width: 500px;
     border: 2px solid rgba(44, 44, 59, 0.685);
     background-repeat: no-repeat;
     margin: auto;
     background-position: center center;
+    box-shadow: 0 10px 20px rgba(75, 74, 74, 0.418), 0 15px 20px rgba(75, 74, 74, 0.692);
 }
 
 
@@ -60,7 +94,7 @@ font-family: 'Monoton', cursive;                 */
     font-size: 1.2em;
     font-weight: bold;
     /* text-transform: uppercase; */
-    padding: 10px 15px;
+    padding: 5px 8px;
     margin: 20px auto;
     color: rgb(230, 230, 230);
     background-color: rgb(126, 125, 125);
@@ -83,9 +117,36 @@ hr {
     margin: 25px;
 }
 
-.bgblack {
-    background-color: rgba(0, 0, 0, .8);
+.homeHeadersBG {
+    -webkit-transform: skew(-50deg);
+    -moz-transform: skew(-50deg);
+    -o-transform: skew(-50deg);
+    transform: skew(-50deg);
+    background: rgb(194, 194, 194);
+    color: black;
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+    left: -55px;
+    max-width: 90%;
+    box-shadow: 10px 5px 7px rgba(54, 95, 129, 0.158), 20px 10px 9.5px rgba(47, 106, 168, 0.322);
+    margin-bottom: 20px;
 }
+
+.homeHeaders {
+    -webkit-transform: skew(50deg);
+    -moz-transform: skew(50deg);
+    -o-transform: skew(50deg);
+    transform: skew(50deg);
+    padding-left: 10px;
+    font-size: 4.5vw;
+    font-family: 'Kavoon', cursive;
+}
+
+
+/* .bgblack {
+    background-color: rgba(0, 0, 0, .8);
+} */
 
 #about {
     border-top: 2px solid rgb(175, 175, 175);
@@ -94,7 +155,7 @@ hr {
 
 .maincontain {
     border-top: 2px solid rgb(175, 175, 175);
-    border-right: 2px solid rgb(175, 175, 175);
+    border-bottom: 2px solid rgb(175, 175, 175);
     border-left: 2px solid rgb(175, 175, 175);
     margin: auto;
     background-color: rgba(255, 255, 255, 0.77);
@@ -105,9 +166,13 @@ body {
     /* background-image: */
 }
 
-.navcolor {
-    background-color: rgb(114, 35, 35);
+#navlinks {
+    font-size: 18px;
+    font-weight: bold;
 }
+
+
+/* .navcolor {} */
 
 p.lcs:first-letter {
     font-size: 50px;
@@ -174,7 +239,7 @@ p.lcs:first-letter {
 }
 
 
-/* ABOUT PAGE */
+/* ABOUT  */
 
 .aboutrow {
     border: 2px solid rgba(100, 100, 100, 0.473);
@@ -183,7 +248,7 @@ p.lcs:first-letter {
 
 #abouttxt {
     border: 2px solid rgba(138, 137, 137, 0.26);
-    background-color: rgba(228, 228, 228, 0.8)
+    background-color: rgba(228, 228, 228, 0.8);
 }
 
 #abouttxt p:first-letter {
@@ -191,6 +256,29 @@ p.lcs:first-letter {
     float: left;
     /* margin: 20px 20px 0 0; */
     line-height: 0.8;
+}
+
+
+/* Projects */
+
+.projectrow {
+    border: 2px solid rgba(100, 100, 100, 0.473);
+    padding: 5px;
+}
+
+.projectstxt {
+    border: 2px solid rgba(138, 137, 137, 0.26);
+    background-color: rgba(228, 228, 228, 0.8);
+    font-size: 1.5rem;
+}
+
+.projectstxt p:first-letter {
+    font-size: 8rem;
+    float: left;
+    /* margin: 20px 20px 0 0; */
+    line-height: 0.8;
+    /* border: 1px solid rgb(199, 199, 199);
+    background-color: white; */
 }
 
 
@@ -207,7 +295,7 @@ p.lcs:first-letter {
 }
 
 .contactForm {
-    background-color: rgba(182, 182, 182, 0.8);
+    background-color: rgba(153, 147, 194, 0.8);
     padding-top: 5px;
 }
 

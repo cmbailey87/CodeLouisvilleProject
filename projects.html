@@ -8,19 +8,21 @@
 
     <!-- BootStrap 4 CDN  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <script src="https://use.fontawesome.com/4f1a2227d7.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <!-- font awesome -->
+    <script src="https://use.fontawesome.com/4f1a2227d7.js"></script>
+    <!-- custom style sheet -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- google Fonts Kavoon-->
+    <link href="https://fonts.googleapis.com/css?family=Kavoon" rel="stylesheet">
 </head>
 
 <body>
-    <!-- top-navbar NEED TO ADD STICKY!!!!!! (contactus and signup link)-->
-    <!-- add signup for newsletter button...to open MODAL link... imclude the information about us-->
-    <!-- Add contact us via email button ...to open Modal..also have a link include in about us page.-->
+    <!-- top-navbar -->
     <!-- Nav bar -->
-    <nav class="navbar navbar-expand-md  navbar-dark bg-dark sticky-top navcolor ">
+    <nav class="navbar navbar-expand-md  navbar-dark sticky-top navcolor " style="background-color: rgb(38, 103, 138);">
         <a class="navbar-brand" href="index.html">
             <img src="img/lcslogo.png" width="70" height="50" alt="">
         </a>
@@ -28,33 +30,38 @@
                           <span class="navbar-toggler-icon"></span>
                         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" id="navlinks">
                 <li class="nav-item ">
-                    <a class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link " href="index.html">Home </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link " href="index.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html#events">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html#contact">Contact Us</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="events.html">Events</a>
+                    <a class="nav-link" href="calendar.html">Calendar</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active " href="projects.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="contact.html">Contact Us</a>
+                    <a class="nav-link active" href="projects.html">Projects <span class="sr-only">Projects Page</span></a>
                 </li>
             </ul>
         </div>
+        <!-- navbar -->
+        <!-- social media ICONS -->
         <!-- social media ICONS -->
         <div class="pagelinks container d-flex justify-content-end">
             <div class="d-none d-md-inline-block">
                 <div class="row">
                     <a class=" navbar-brand mr-4" href="https://www.facebook.com/groups/theLCS/">
-                        <i class="fa fa-facebook-official" style="font-size:48px;color:rgb(255, 255, 255) ; "></i>
+                        <i class="fa fa-facebook-official" style="font-size:50px;color:rgb(255, 255, 255) ;"></i>
                     </a>
                     <a class="navbar-brand mr-4" href="https://lcs-deviants.deviantart.com/">
-                        <i class="fa fa-deviantart" style="font-size:48px; color:rgb(44, 199, 44);"></i>
+                        <i class="fa fa-deviantart" style="font-size:50px; color:rgb(66, 255, 66);"></i>
                     </a>
                     <a class="navbar-brand" href="https://www.kickstarter.com/projects/lcscomics/tall-tales-and-little-lies-a-fantasy-anthology-gra">
                         <img src="img/kickstarter.png" width="50px" height="50px" alt="louisville cartoonist society kickstarter">
@@ -63,21 +70,119 @@
             </div>
         </div>
         <!-- /social media icons -->
+        <!-- /social media icons -->
     </nav>
-    <!-- /NavBar -->
-    <div class="aboutdiv container my-5 maincontain">
-        <div class="aboutrow row">
-            <div class="col-md-4">
-                <img class="d-block img-fluid mx-auto" src="img/legendscover.jpg" alt="lousiville cartoonist society group photo">
+    <!-- /top NavBar -->
+
+
+    <!-- projects  -->
+    <<hr>
+        <div class="homeHeadersBG">
+            <h1 class="text-center homeHeaders">Current Works</h1>
+        </div>
+        <!-- legends container -->
+        <div class="aboutdiv container maincontain">
+            <div class="projectrow row">
+                <div class="col-lg-6 col-md-4">
+                    <img class="d-block img-fluid mx-auto" src="img/legendscover.jpg" alt="lousiville cartoonist society group photo">
+                </div>
+                <div class="col-lg-6 col-md-8 pt-lg-0 pt-2 projectstxt" id="legends">
+                    <p> This will hold desciption fro the legens bookThe Louisville Cartoonist Society (LCS) is a Louisville, Kentucky based independent comics group, formed in 2009 by a group of artists who all shared the same goal…making comics. The society
+                        members focus on sharing ideas, collaborating on comic books, critiquing each others’ work and the larger task of promoting and selling our own self-published books. We encourage the creation of new comics and help local artists
+                        connect to their audience. Cartoonists unite!</p>
+                </div>
             </div>
-            <div class="col-md-8 pt-lg-0 pt-2 " id="abouttxt">
-                <p> this will hold desciption fro the legens bookThe Louisville Cartoonist Society (LCS) is a Louisville, Kentucky based independent comics group, formed in 2009 by a group of artists who all shared the same goal…making comics. The society
-                    members focus on sharing ideas, collaborating on comic books, critiquing each others’ work and the larger task of promoting and selling our own self-published books. We encourage the creation of new comics and help local artists connect
-                    to their audience. Cartoonists unite!</p>
+        </div>
+        <!-- legends -->
+        <hr>
+        <div class="homeHeadersBG">
+            <h1 class="text-center homeHeaders">Previous Works</h1>
+        </div>
+        <!-- space  -->
+        <div class="aboutdiv container  maincontain">
+            <div class="aboutrow row">
+                <div class="col-md-8 pt-lg-0 pt-2 " id="abouttxt">
+                    <p> this will hold desciption fro the legens bookThe Louisville Cartoonist Society (LCS) is a Louisville, Kentucky based independent comics group, formed in 2009 by a group of artists who all shared the same goal…making comics. The society
+                        members focus on sharing ideas, collaborating on comic books, critiquing each others’ work and the larger task of promoting and selling our own self-published books. We encourage the creation of new comics and help local artists
+                        connect to their audience. Cartoonists unite!</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="d-block img-fluid mx-auto" src="img/spacecover.jpg" alt="lousiville cartoonist society group photo">
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /space -->
+        <!-- fantasy  -->
+        <div class="aboutdiv container  maincontain">
+            <div class="aboutrow row">
+                <div class="col-md-4">
+                    <img class="d-block img-fluid mx-auto" src="img/fantasycover.jpg" alt="lousiville cartoonist society group photo" style="border-radius:50%;">
+                </div>
+                <div class="col-md-8 pt-lg-0 pt-2 " id="abouttxt">
+                    <p> this will hold desciption fro the legens bookThe Louisville Cartoonist Society (LCS) is a Louisville, Kentucky based independent comics group, formed in 2009 by a group of artists who all shared the same goal…making comics. The society
+                        members focus on sharing ideas, collaborating on comic books, critiquing each others’ work and the larger task of promoting and selling our own self-published books. We encourage the creation of new comics and help local artists
+                        connect to their audience. Cartoonists unite!</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- fantasy -->
+        <!-- littletales -->
+        <div class="aboutdiv container mb-5 maincontain">
+            <div class="aboutrow row">
+                <div class="col-md-8 pt-lg-0 pt-2 " id="abouttxt">
+                    <p> this will hold desciption fro the legens bookThe Louisville Cartoonist Society (LCS) is a Louisville, Kentucky based independent comics group, formed in 2009 by a group of artists who all shared the same goal…making comics. The society
+                        members focus on sharing ideas, collaborating on comic books, critiquing each others’ work and the larger task of promoting and selling our own self-published books. We encourage the creation of new comics and help local artists
+                        connect to their audience. Cartoonists unite!</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="d-block img-fluid mx-auto" src="img/littletalescover.jpg" alt="lousiville cartoonist society group photo">
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /littletales -->
+
+
+        <!-- /image container -->
+        <div class="container pb-lg-5">
+            <div class="row">
+                <!-- container for first img -->
+                <div class=" col-lg-6">
+                    <div id="firstImg">
+                        <!-- <button type="button" class="btn btn-primary firstImgbtn" data-toggle="modal" data-target="#ContactLCS2">                            
+                                        Subscribe to The LCS NewsLetter!!                                                                                             
+                            </button> -->
+
+
+                        <div class="input-group col-md-10 col-12 mb-4 ">
+                            <input type="text" class="form-control" placeholder="example@domain.com" aria-label="Search for...">
+                            <span class="input-group-btn">
+                                    <button class="btn firstImgbtn " type="button">submit</button>
+                                  </span>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- /container for first img-->
+                <!-- container for Second img -->
+                <div class="col-lg-6 mb-lg-0 mb-5">
+                    <div class="mt-lg-0 mt-md-4  mt-5" id="secondImg">
+                        <button type="button" class="btn btn-primary secondImgbtn" data-toggle="modal" data-target="#ContactLCS">
+                                        Contact the LCS!! Give us a Shout!! 
+                            </button>
+
+                    </div>
+                </div>
+                <!-- /second img -->
             </div>
         </div>
 
-    </div>
+        <!--/ image container -->
+
 
 </body>
 <footer class="footercolors ">
@@ -128,6 +233,58 @@
             </div>
         </div>
 </footer>
+
+<!-- modals -->
+<!-- contact us modal -->
+<div id="ContactLCS" class="modal fade">
+    <!--modal-lg will make it bigger  -->
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title">Contact the LCS Today!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+            </div>
+            <div class="modal-body">
+                <!-- contact -form -->
+                <form>
+
+                    <h5 class="mb-2">Contact Info</h5>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Organization (optional):</label>
+                        <input type="text" class="form-control" id="name" placeholder="name">
+                    </div>
+                    <!-- giving a a form label for control label adds padding, so you have to remove it it to keep everythign lined up correctly -->
+                    <!-- has danger is the validation style for red highlight -->
+                    <div class="form-group has-danger">
+                        <!-- form control label lets to lavel enherit the validations style -->
+                        <label for="mail" class="form-control-label pl-0">Email:</label>
+                        <!-- adding form control danger to the input field adds the red X -->
+                        <input type="mail" class="form-control form-control-danger" id="mail" placeholder="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="control-label">Message</label>
+                        <div class="col-sm-12">
+                            <textarea class="form-control" rows="4" name="message"></textarea>
+                        </div>
+                    </div>
+                    <hr mb-2>
+                    <button type="submit" class="btn btn-primary"> Submit</button>
+                </form>
+                <!-- / contact form -->
+            </div>
+            <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div> -->
+        </div>
+    </div>
+    <!-- /contact modal -->
 
 
 </html>
