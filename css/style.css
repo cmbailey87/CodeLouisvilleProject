@@ -2,6 +2,7 @@
 font-family: 'Monoton', cursive;                 */
 
 #carousel {
+    margin-top: 100px;
     display: block;
     position: relative;
     /* border: 5px solid rgba(129, 88, 131, 0.15) */
@@ -118,18 +119,21 @@ hr {
 }
 
 .homeHeadersBG {
+    margin-top: 50px;
     -webkit-transform: skew(-50deg);
     -moz-transform: skew(-50deg);
     -o-transform: skew(-50deg);
     transform: skew(-50deg);
-    background: rgb(194, 194, 194);
+    background: rgb(252, 245, 171);
     padding: 10px 0;
     overflow: hidden;
     position: relative;
-    left: -55px;
+    left: -78px;
     max-width: 90%;
     box-shadow: 10px 5px 7px rgba(54, 95, 129, 0.158), 20px 10px 9.5px rgba(47, 106, 168, 0.322);
     margin-bottom: 20px;
+    border: 3px solid black;
+    background: linear-gradient(to right, rgb(252, 165, 60) 10px, rgb(252, 245, 171));
 }
 
 .homeHeaders {
@@ -147,10 +151,11 @@ hr {
     background-color: rgba(0, 0, 0, .8);
 } */
 
-#about {
+
+/* #about {
     border-top: 2px solid rgb(175, 175, 175);
     border-bottom: 2px solid rgb(175, 175, 175);
-}
+} */
 
 .maincontain {
     border-top: 2px solid rgb(175, 175, 175);
@@ -258,6 +263,39 @@ p.lcs:first-letter {
 }
 
 
+/* cal page */
+
+.homeHeadersBGCal {
+    -webkit-transform: skew(-50deg);
+    -moz-transform: skew(-50deg);
+    -o-transform: skew(-50deg);
+    transform: skew(-50deg);
+    background: rgb(252, 245, 171);
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+    left: -78px;
+    max-width: 90%;
+    box-shadow: 10px 5px 7px rgba(54, 95, 129, 0.158), 20px 10px 9.5px rgba(47, 106, 168, 0.322);
+    margin-bottom: 20px;
+    border: 3px solid black;
+    background: linear-gradient(to right, rgb(252, 165, 60) 10px, rgb(252, 245, 171));
+}
+
+.homeHeadersCal {
+    -webkit-transform: skew(50deg);
+    -moz-transform: skew(50deg);
+    -o-transform: skew(50deg);
+    transform: skew(50deg);
+    padding-left: 10px;
+    font-size: 5.6vw;
+    font-family: 'Kavoon', cursive;
+}
+
+
+/* /cal */
+
+
 /* Projects */
 
 .projectrow {
@@ -268,16 +306,42 @@ p.lcs:first-letter {
 .projectstxt {
     border: 2px solid rgba(138, 137, 137, 0.26);
     background-color: rgba(228, 228, 228, 0.8);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .projectstxt p:first-letter {
-    font-size: 8rem;
+    font-size: 5rem;
     float: left;
     /* margin: 20px 20px 0 0; */
     line-height: 0.8;
     /* border: 1px solid rgb(199, 199, 199);
     background-color: white; */
+}
+
+.homeHeadersBGProjects {
+    -webkit-transform: skew(-50deg);
+    -moz-transform: skew(-50deg);
+    -o-transform: skew(-50deg);
+    transform: skew(-50deg);
+    background: linear-gradient(to right, rgb(252, 165, 60) 10px, rgb(252, 245, 171));
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+    left: -75px;
+    max-width: 96%;
+    box-shadow: 10px 5px 7px rgba(54, 95, 129, 0.158), 20px 10px 9.5px rgba(47, 106, 168, 0.322);
+    margin-bottom: 20px;
+    border: 3px solid black;
+}
+
+.homeHeadersProjects {
+    -webkit-transform: skew(50deg);
+    -moz-transform: skew(50deg);
+    -o-transform: skew(50deg);
+    transform: skew(50deg);
+    padding-left: 10px;
+    font-size: 5.6vw;
+    font-family: 'Kavoon', cursive;
 }
 
 
