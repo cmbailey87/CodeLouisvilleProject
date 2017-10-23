@@ -36,7 +36,7 @@ font-family: 'Monoton', cursive;                 */
 }
 
 .mainTitle {
-    font-size: 7vw;
+    font-size: 6vw;
     font-family: 'Kavoon', cursive;
 }
 
@@ -123,7 +123,6 @@ hr {
     -o-transform: skew(-50deg);
     transform: skew(-50deg);
     background: rgb(194, 194, 194);
-    color: black;
     padding: 10px 0;
     overflow: hidden;
     position: relative;
@@ -139,7 +138,7 @@ hr {
     -o-transform: skew(50deg);
     transform: skew(50deg);
     padding-left: 10px;
-    font-size: 4.5vw;
+    font-size: 4.6vw;
     font-family: 'Kavoon', cursive;
 }
 
