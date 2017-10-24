@@ -2,9 +2,9 @@
 font-family: 'Monoton', cursive;                 */
 
 #carousel {
-    margin-top: 100px;
     display: block;
     position: relative;
+    margin-top: 10px;
     /* border: 5px solid rgba(129, 88, 131, 0.15) */
 }
 
@@ -158,9 +158,7 @@ hr {
 } */
 
 .maincontain {
-    border-top: 2px solid rgb(175, 175, 175);
-    border-bottom: 2px solid rgb(175, 175, 175);
-    border-left: 2px solid rgb(175, 175, 175);
+    border: 2px solid rgb(175, 175, 175);
     margin: auto;
     background-color: rgba(255, 255, 255, 0.77);
 }
@@ -298,6 +296,15 @@ p.lcs:first-letter {
 
 /* Projects */
 
+.currentanth {
+    max-height: 800px;
+}
+
+.coverimg {
+    border: 2px solid rgb(126, 125, 125);
+    box-shadow: 8px 8px 20px grey;
+}
+
 .projectrow {
     border: 2px solid rgba(100, 100, 100, 0.473);
     padding: 5px;
@@ -309,14 +316,15 @@ p.lcs:first-letter {
     font-size: 1.2rem;
 }
 
-.projectstxt p:first-letter {
+
+/* .projectstxt p:first-letter {
     font-size: 5rem;
     float: left;
-    /* margin: 20px 20px 0 0; */
+    margin: 20px 20px 0 0;
     line-height: 0.8;
-    /* border: 1px solid rgb(199, 199, 199);
-    background-color: white; */
-}
+    border: 1px solid rgb(199, 199, 199);
+    background-color: white;
+} */
 
 .homeHeadersBGProjects {
     -webkit-transform: skew(-50deg);

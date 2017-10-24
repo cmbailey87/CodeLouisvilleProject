@@ -89,6 +89,43 @@
     <!-- /google calendar -->
     <!-- /events calendar -->
 
+    <!-- /image container -->
+    <div class="container pb-lg-5">
+        <div class="row">
+            <!-- container for first img -->
+            <div class=" col-lg-6">
+                <div id="firstImg">
+                    <!-- <button type="button" class="btn btn-primary firstImgbtn" data-toggle="modal" data-target="#ContactLCS2">                            
+                                        Subscribe to The LCS NewsLetter!!                                                                                             
+                            </button> -->
+
+
+                    <div class="input-group col-md-10 col-12 mb-4 ">
+                        <input type="text" class="form-control" placeholder="example@domain.com" aria-label="Search for...">
+                        <span class="input-group-btn">
+                                    <button class="btn firstImgbtn " type="button">submit</button>
+                                  </span>
+                    </div>
+
+                </div>
+            </div>
+            <!-- /container for first img-->
+            <!-- container for Second img -->
+            <div class="col-lg-6 mb-lg-0 mb-5">
+                <div class="mt-lg-0 mt-md-4  mt-5" id="secondImg">
+                    <button type="button" class="btn btn-primary secondImgbtn" data-toggle="modal" data-target="#ContactLCS">
+                                        Contact the LCS!! Give us a Shout!! 
+                            </button>
+
+                </div>
+            </div>
+            <!-- /second img -->
+        </div>
+    </div>
+
+    <!--/ image container -->
+
+
 </body>
 
 
@@ -142,5 +179,56 @@
         </div>
 </footer>
 
+<!-- modals -->
+<!-- contact us modal -->
+<div id="ContactLCS" class="modal fade">
+    <!--modal-lg will make it bigger  -->
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-black">
+                <h5 class="modal-title">Contact the LCS Today!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+            </div>
+            <div class="modal-body">
+                <!-- contact -form -->
+                <form>
+
+                    <h5 class="mb-2">Contact Info</h5>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Organization (optional):</label>
+                        <input type="text" class="form-control" id="name" placeholder="Organization">
+                    </div>
+                    <!-- giving a a form label for control label adds padding, so you have to remove it it to keep everythign lined up correctly -->
+                    <!-- has danger is the validation style for red highlight -->
+                    <div class="form-group has-danger">
+                        <!-- form control label lets to lavel enherit the validations style -->
+                        <label for="mail" class="form-control-label pl-0">Email:</label>
+                        <!-- adding form control danger to the input field adds the red X -->
+                        <input type="mail" class="form-control form-control-danger" id="mail" placeholder="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="control-label">Message</label>
+                        <div class="col-sm-12">
+                            <textarea class="form-control" rows="4" name="message"></textarea>
+                        </div>
+                    </div>
+                    <hr mb-2>
+                    <button type="submit" class="btn btn-primary"> Submit</button>
+                </form>
+                <!-- / contact form -->
+            </div>
+            <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div> -->
+        </div>
+    </div>
+    <!-- /contact modal -->
 
 </html>
