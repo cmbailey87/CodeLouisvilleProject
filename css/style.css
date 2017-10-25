@@ -119,7 +119,6 @@ hr {
 }
 
 .homeHeadersBG {
-    margin-top: 50px;
     -webkit-transform: skew(-50deg);
     -moz-transform: skew(-50deg);
     -o-transform: skew(-50deg);
@@ -128,6 +127,7 @@ hr {
     padding: 10px 0;
     overflow: hidden;
     position: relative;
+    margin-top: 50px;
     left: -78px;
     max-width: 90%;
     box-shadow: 10px 5px 7px rgba(54, 95, 129, 0.158), 20px 10px 9.5px rgba(47, 106, 168, 0.322);
@@ -296,9 +296,15 @@ p.lcs:first-letter {
 
 /* Projects */
 
-.currentanth {
-    max-height: ;
+.currentProject {
+    border: 2px solid rgb(126, 125, 125);
+    box-shadow: 4px 4px 20px grey;
 }
+
+
+/* .currentanth {
+    max-height: ;
+} */
 
 .coverimg {
     border: 2px solid rgb(126, 125, 125);
