@@ -323,6 +323,10 @@ p.lcs:first-letter {
 
 /* cal page */
 
+.gcal {
+    position: relative;
+}
+
 .homeHeadersBGCal {
     -webkit-transform: skew(-50deg);
     -moz-transform: skew(-50deg);
