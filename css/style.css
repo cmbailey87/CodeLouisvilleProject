@@ -1,10 +1,35 @@
 /* font-family: 'Gravitas One', cursive;
 font-family: 'Monoton', cursive;                 */
 
-body {
-    background-color: rgb(218, 218, 218);
-    background: url("img/bgoage2.jpg");
+
+/* navbar */
+
+#navlinks {
+    font-size: 18px;
+    font-weight: bold;
 }
+
+
+/* media query for icons */
+
+#iconRanch {
+    display: none;
+}
+
+
+/* .navcolor {} */
+
+
+/* // bigger screens */
+
+@media (max-width: 992px) {
+    #iconRanch {
+        display: inline-block;
+    }
+}
+
+
+/* /navbar */
 
 #background {
     position: fixed;
@@ -13,46 +38,15 @@ body {
     width: 100%;
     height: 100%;
     background-image: url(bgpage2.jpg);
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: 100%;
-    opacity: 0.09;
+    opacity: 0.2;
     filter: alpha(opacity=40);
-}
-
-#carousel {
-    display: block;
-    position: relative;
-    margin-top: 10px;
-    /* border: 5px solid rgba(129, 88, 131, 0.15) */
-}
-
-#carousel::after {
-    content: "";
-    background: url(lcscon.jpg);
-    opacity: 0.3;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
 }
 
 .carouselimgs {
     box-shadow: 5px 10px 20px rgba(107, 107, 126, 0.418), 5px 15px 20px rgba(83, 85, 116, 0.692);
-}
-
-.lcshead {
-    text-align: center;
-    font-family: 'Monoton', bold;
-    font-size: 4rem;
-}
-
-.titleDiv {
-    background: rgb(211, 184, 219);
-    color: black;
-    padding: 10px 0;
 }
 
 .mainTitle {
@@ -128,14 +122,7 @@ body {
 }
 
 
-/* hr {
-    border-top: 8px solid #8c8b8b;
-    height: 6px;
-    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
-    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
-    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
-    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
-} */
+/* page breaks */
 
 hr {
     height: 30px;
@@ -155,6 +142,12 @@ hr:before {
     border-width: 0 0 2.5px 0;
     border-radius: 20px;
 }
+
+
+/* /pagebreaks */
+
+
+/* headings */
 
 .homeHeadersBG {
     -webkit-transform: skew(-50deg);
@@ -185,105 +178,30 @@ hr:before {
 }
 
 
-/* .bgblack {
-    background-color: rgba(0, 0, 0, .8);
-} */
+/* /headings */
 
 
-/* #about {
-    border-top: 2px solid rgb(175, 175, 175);
-    border-bottom: 2px solid rgb(175, 175, 175);
-} */
-
-.maincontain {
-    border: 2px solid rgb(175, 175, 175);
-    margin: auto;
-    background-color: rgba(255, 255, 255, 0.77);
-}
-
-#navlinks {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-
-/* .navcolor {} */
-
-p.lcs:first-letter {
-    font-size: 50px;
-    float: left;
-    /* margin: 20px 20px 0 0; */
-    line-height: 0.8;
-}
-
-.footercolors {
-    background-color: rgb(238, 238, 238);
-    border-top: 1px solid rgb(175, 175, 175);
-    /* border-bottom: 3px solid rgb(175, 175, 175); */
-    /* border-right: 2px solid rgb(175, 175, 175);
-                    border-left: 2px solid rgb(175, 175, 175); */
-}
-
-.linkStyles {
-    list-style: none;
-    padding-left: 0;
-}
-
-.linkStyles a {
-    color: rgba(49, 49, 49, 0.8);
-    text-decoration: none;
-    font: normal .8rem Sans-Serif;
-}
-
-
-/*.linkStyles a:visited {
-    color: #00FF00;
-} */
-
-
-/* visited link */
-
-.linkStyles a:hover {
-    color: #000000;
-}
-
-
-/* mouse over link */
-
-.linkStyles a:active {
-    color: #FFFFFF;
-}
-
-
-/* selected link */
-
-
-/* media query for icons */
-
-#iconRanch {
-    display: none;
-}
-
-
-/* // bigger screens */
-
-@media (max-width: 992px) {
-    #iconRanch {
-        display: inline-block;
-    }
-}
+/* *****************
+****************
+****************
+****************
+**************** */
 
 
 /* ABOUT  */
 
 .aboutrow {
-    border: 2px solid rgba(100, 100, 100, 0.473);
-    padding: 5px;
+    border: 5px solid rgb(100, 100, 100);
+    /* padding: 5px; */
+}
+
+#aboutimg {
+    border: 2px solid rgb(138, 137, 137);
 }
 
 #abouttxt {
-    border: 2px solid rgba(138, 137, 137, 0.26);
-    background-color: rgba(228, 228, 228, 0.8);
+    border: 2px solid rgb(138, 137, 137);
+    background-color: rgb(228, 228, 228);
 }
 
 #abouttxt p:first-letter {
@@ -294,7 +212,38 @@ p.lcs:first-letter {
 }
 
 
+/* /about */
+
+
+/* *****************
+****************
+****************
+****************
+**************** */
+
+
+/* event card */
+
+.eventcard {
+    border: 5px dashed rgb(115, 116, 141);
+}
+
+
+/* /event card */
+
+
+/* *****************
+****************
+****************
+****************
+**************** */
+
+
 /* cal page */
+
+.gcal {
+    position: relative;
+}
 
 .homeHeadersBGCal {
     -webkit-transform: skew(-50deg);
@@ -327,89 +276,63 @@ p.lcs:first-letter {
 /* /cal */
 
 
-/* Projects */
+/* *****************
+****************
+****************
+****************
+**************** */
+
+
+/* Projects CSS AREA */
 
 .currentProject {
     border: 2px solid rgb(126, 125, 125);
     box-shadow: 4px 4px 20px grey;
 }
 
-
-/* .currentanth {
-    max-height: ;
-} */
+.anthcovers {
+    background: rgb(206, 206, 206);
+    border: 4px solid rgba(100, 100, 100, 0.473);
+}
 
 .coverimg {
     border: 2px solid rgb(126, 125, 125);
     box-shadow: 8px 8px 20px grey;
 }
 
-.projectrow {
-    border: 2px solid rgba(100, 100, 100, 0.473);
-    padding: 5px;
-}
 
-.projectstxt {
-    border: 2px solid rgba(138, 137, 137, 0.26);
-    background-color: rgba(228, 228, 228, 0.8);
-    font-size: 1.2rem;
-}
+/* /projects CSS Area */
 
 
-/* .projectstxt p:first-letter {
-    font-size: 5rem;
-    float: left;
-    margin: 20px 20px 0 0;
-    line-height: 0.8;
-    border: 1px solid rgb(199, 199, 199);
-    background-color: white;
-} */
-
-.homeHeadersBGProjects {
-    -webkit-transform: skew(-50deg);
-    -moz-transform: skew(-50deg);
-    -o-transform: skew(-50deg);
-    transform: skew(-50deg);
-    background: linear-gradient(to right, rgb(252, 165, 60) 10px, rgb(252, 245, 171));
-    padding: 10px 0;
-    overflow: hidden;
-    position: relative;
-    left: -75px;
-    max-width: 96%;
-    box-shadow: 10px 5px 7px rgba(54, 95, 129, 0.158), 20px 10px 9.5px rgba(47, 106, 168, 0.322);
-    margin-bottom: 20px;
-    border: 3px solid black;
-}
-
-.homeHeadersProjects {
-    -webkit-transform: skew(50deg);
-    -moz-transform: skew(50deg);
-    -o-transform: skew(50deg);
-    transform: skew(50deg);
-    padding-left: 10px;
-    font-size: 5.6vw;
-    font-family: 'Kavoon', cursive;
-}
+/* *****************
+****************
+****************
+****************
+**************** */
 
 
 /* contact */
 
 #maincontactdiv {
-    border: 2px solid rgb(100, 100, 100);
+    border: 5px solid rgb(100, 100, 100);
     padding: 5px;
+    background: rgb(225, 232, 236);
+    position: relative;
 }
 
 .rowbg {
-    background-color: rgb(202, 202, 202);
-    padding: 5px;
+    background: rgb(161, 166, 184);
+    padding: 10px;
+    position: relative;
 }
 
 .contactForm {
-    background-color: rgb(153, 147, 194);
+    background: rgb(153, 147, 194);
     padding-top: 5px;
+    border: 5px dashed grey;
 }
 
-.contactForm h3 {
+.contactForm h1 {
     text-align: center;
 }
 
@@ -429,3 +352,55 @@ p.lcs:first-letter {
 
 
 /* /contact */
+
+
+/* *****************
+****************
+****************
+****************
+**************** */
+
+
+/* footer area css */
+
+.footercolors {
+    position: relative;
+    background-color: rgb(249, 250, 209);
+    border-top: 1px solid rgb(175, 175, 175);
+    /* border-bottom: 3px solid rgb(175, 175, 175); */
+    /* border-right: 2px solid rgb(175, 175, 175);
+                    border-left: 2px solid rgb(175, 175, 175); */
+}
+
+.linkStyles {
+    list-style: none;
+    padding-left: 0;
+}
+
+.linkStyles a {
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+    font: normal .8rem Sans-Serif;
+}
+
+
+/*.linkStyles a:visited {
+    color: #00FF00;
+} */
+
+
+/* visited link */
+
+.linkStyles a:hover {
+    color: #000000;
+}
+
+
+/* mouse over link */
+
+.linkStyles a:active {
+    color: #FFFFFF;
+}
+
+
+/* /footer area CSS */
