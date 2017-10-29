@@ -31,20 +31,6 @@ font-family: 'Monoton', cursive;                 */
 
 /* /navbar */
 
-#background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(bgpage2.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    opacity: 0.2;
-    filter: alpha(opacity=40);
-}
-
 .carouselimgs {
     box-shadow: 5px 10px 20px rgba(107, 107, 126, 0.418), 5px 15px 20px rgba(83, 85, 116, 0.692);
 }
@@ -429,3 +415,23 @@ hr:before {
 
 
 /* /image overlay */
+
+
+/* bg */
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(bgpage2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.2;
+    filter: alpha(opacity=40);
+}
+
+
+/* /bg */

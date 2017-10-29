@@ -21,7 +21,7 @@ $("body").append($overlay);
 //user clicks on link, around the image
 //1.capture click event on image ***created ID in the top UL element named imageGallery to reference all child anchors
 $("#anthcovers a").click(function() {
-
+    event.preventDefault();
     //*this refers to the image anchor you clicked on
     var imagelocation = $(this).attr("href");
     //1.2 update overlay with image linked in link
