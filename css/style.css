@@ -10,7 +10,7 @@ font-family: 'Monoton', cursive;                 */
 }
 
 
-/* media query for icons */
+/* icons */
 
 #iconRanch {
     display: none;
@@ -21,20 +21,31 @@ font-family: 'Monoton', cursive;                 */
 }
 
 
-/* // bigger screens */
-
-@media (max-width: 992px) {
-    #iconRanch {
-        display: inline-block;
-    }
-}
-
-
 /* /navbar */
+
+
+/* carousel styles */
 
 .carouselimgs {
     box-shadow: 5px 10px 20px rgba(107, 107, 126, 0.418), 5px 15px 20px rgba(83, 85, 116, 0.692);
 }
+
+#carousel {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+
+/* // bigger screens */
+
+@media (max-width: 600px) {
+    #carousel {
+        display: none;
+    }
+}
+
+
+/* /carousel styles */
 
 .mainTitle {
     font-size: 6vw;
@@ -412,7 +423,7 @@ hr:before {
 }
 
 #overlaycovers img {
-    margin-top: 1.5%;
+    margin-top: 5.2rem;
     height: auto;
     width: auto;
     max-width: 100%;
