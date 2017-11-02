@@ -34,6 +34,7 @@ font-family: 'Monoton', cursive;                 */
 
 .carouselimgs {
     box-shadow: 5px 10px 20px rgba(107, 107, 126, 0.418), 5px 15px 20px rgba(83, 85, 116, 0.692);
+    margin-top: 10%;
 }
 
 .mainTitle {
