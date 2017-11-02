@@ -28,7 +28,7 @@ font-family: 'Monoton', cursive;                 */
 
 .carouselimgs {
     box-shadow: 5px 10px 20px rgba(107, 107, 126, 0.418), 5px 15px 20px rgba(83, 85, 116, 0.692);
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 
 #carousel {
@@ -48,10 +48,19 @@ font-family: 'Monoton', cursive;                 */
 
 /* /carousel styles */
 
+
+/* main header  */
+
 .mainTitle {
     font-size: 6vw;
     font-family: 'Kavoon', cursive;
 }
+
+
+/* /main header */
+
+
+/* div with images as backgroung */
 
 #firstImg {
     background-image: url('axeman3.jpg');
@@ -74,6 +83,9 @@ font-family: 'Monoton', cursive;                 */
     background-position: center center;
     box-shadow: 0 10px 20px rgba(75, 74, 74, 0.418), 0 15px 20px rgba(75, 74, 74, 0.692);
 }
+
+
+/* /div with images as backlground */
 
 
 /* bottom image flexbox */
@@ -119,6 +131,9 @@ font-family: 'Monoton', cursive;                 */
     box-shadow: 0 1px 0 rgb(53, 53, 53), 0 5px 0 rgb(54, 54, 54), 0 6px 6px rgba(0, 0, 0, 0.6);
     cursor: pointer;
 }
+
+
+/* /end div with images as background */
 
 
 /* page breaks */
