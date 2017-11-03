@@ -79,5 +79,14 @@ $navlinks.addEventListener("click", function() {
 
 
 // google calendar hide away
+var $calbutton = $(".calButton");
+
+$calbutton.click(function() {
+    $(".gcallg").slideUp("slow", function() {
+        // Animation complete.
+    });
+})
+
+
 
 // google calrndar hide away

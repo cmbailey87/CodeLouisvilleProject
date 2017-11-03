@@ -257,20 +257,19 @@ hr:before {
 
 /* cal page */
 
-.gCallg {
-    position: relative;
-    height: 0;
-    width: 100%;
-    padding-bottom: 100%;
+.gcallg {
+    display: visible;
+    display: inline-block;
 }
 
-.gCalld iframe {
-    position: absolute;
+
+/* .gCalld iframe {
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-}
+} */
 
 .homeHeadersBGCal {
     -webkit-transform: skew(-50deg);
