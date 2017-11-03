@@ -255,8 +255,19 @@ hr:before {
 
 /* cal page */
 
-.gcal {
+.gCallg {
     position: relative;
+    height: 0;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+.gCalld iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .homeHeadersBGCal {
