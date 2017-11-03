@@ -3,6 +3,7 @@
 //add the over lay
 //$variablename for jquery objects
 
+
 var $overlaycovers = $('<div id="overlaycovers"  class="mt-md-5"></div>');
 //disembodied element from the DOM
 var $image = $('<img  class="mt-md-5 img-fluid">');
@@ -75,3 +76,8 @@ $navlinks.addEventListener("click", function() {
 })
 
 // end navbar collasper custom
+
+
+// google calendar hide away
+
+// google calrndar hide away
