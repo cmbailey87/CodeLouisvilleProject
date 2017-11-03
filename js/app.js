@@ -80,4 +80,10 @@ $navlinks.addEventListener("click", function() {
 
 // google calendar hide away
 
+$("#gcalbtn1").click(function() {
+    $(".gcallg").toggle(1000, function() {
+        // animation complete.
+    })
+})
+
 // google calrndar hide away
