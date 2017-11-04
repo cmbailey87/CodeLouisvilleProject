@@ -37,15 +37,6 @@ font-family: 'Monoton', cursive;                 */
 }
 
 
-/* // bigger screens */
-
-@media (max-width: 600px) {
-    #carousel {
-        display: none;
-    }
-}
-
-
 /* /carousel styles */
 
 
@@ -261,7 +252,11 @@ hr:before {
     position: relative;
 }
 
-.gcallg {
+#gcallg {
+    display: none;
+}
+
+#gcalsm {
     display: none;
 }
 
@@ -274,7 +269,8 @@ hr:before {
     height: 100%;
 } */
 
-.homeHeadersBGCal {
+
+/* .homeHeadersBGCal {
     -webkit-transform: skew(-50deg);
     -moz-transform: skew(-50deg);
     -o-transform: skew(-50deg);
@@ -299,7 +295,7 @@ hr:before {
     padding-left: 10px;
     font-size: 5.6vw;
     font-family: 'Kavoon', cursive;
-}
+} */
 
 
 /* /cal */
@@ -425,7 +421,7 @@ hr:before {
 /* visited link */
 
 .linkStyles a:hover {
-    color: #000000;
+    color: #ff1b1b;
 }
 
 
@@ -491,3 +487,25 @@ hr:before {
 
 
 /* /bg */
+
+
+/* // bigger screens */
+
+
+/* hide divs on small screens */
+
+@media (max-width: 700px) {
+    #carousel,
+    #lcsCalDiv {
+        display: none;
+    }
+}
+
+
+/* min width */
+
+@media (min-width: 700px) {
+    #lcsCalDiv2 {
+        display: none;
+    }
+}
