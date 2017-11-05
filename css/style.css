@@ -4,8 +4,17 @@ font-family: 'Monoton', cursive;                 */
 
 /* navbar */
 
+#navBar {
+    position: fixed;
+    top: 0;
+}
+
+#navbarNav {
+    width: 90%;
+}
+
 #navlinks {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -32,8 +41,9 @@ font-family: 'Monoton', cursive;                 */
 }
 
 #carousel {
-    margin-top: 50px;
-    padding-top: 50px;
+    /* margin-top: 50px;
+    padding-top: 50px; */
+    margin-top: 76px;
 }
 
 
@@ -505,12 +515,16 @@ hr:before {
 /* // bigger screens */
 
 
-/* hide divs on small screens */
+/* leggen of the hidden temple on small screens */
 
 @media (max-width: 700px) {
     #carousel,
     #lcsCalDiv {
         display: none;
+    }
+    #navlinks {
+        font-size: 18px;
+        font-weight: bold;
     }
 }
 
