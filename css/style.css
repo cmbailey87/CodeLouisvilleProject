@@ -2,6 +2,10 @@
 font-family: 'Monoton', cursive;                 */
 
 
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Bangers', cursive; */
+
+
 /* navbar */
 
 #navBar {
@@ -14,8 +18,9 @@ font-family: 'Monoton', cursive;                 */
 }
 
 #navlinks {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
+    font-family: 'Bangers', cursive;
 }
 
 
@@ -54,7 +59,7 @@ font-family: 'Monoton', cursive;                 */
 
 .mainTitle {
     font-size: 6vw;
-    font-family: 'Kavoon', cursive;
+    font-family: 'Bangers', cursive;
 }
 
 
@@ -171,7 +176,6 @@ hr:before {
     -moz-transform: skew(-50deg);
     -o-transform: skew(-50deg);
     transform: skew(-50deg);
-    background: rgb(252, 245, 171);
     padding: 10px 0;
     overflow: hidden;
     position: relative;
@@ -181,7 +185,7 @@ hr:before {
     box-shadow: 10px 5px 7px rgba(54, 95, 129, 0.158), 20px 10px 9.5px rgba(47, 106, 168, 0.322);
     margin-bottom: 20px;
     border: 3px solid black;
-    background: linear-gradient(to right, rgb(252, 165, 60) 10px, rgb(252, 245, 171));
+    background: linear-gradient(to right, rgb(243, 157, 8), rgb(255, 231, 73), rgb(255, 225, 0));
 }
 
 .homeHeaders {
@@ -190,8 +194,8 @@ hr:before {
     -o-transform: skew(50deg);
     transform: skew(50deg);
     padding-left: 10px;
-    font-size: 4.6vw;
-    font-family: 'Kavoon', cursive;
+    font-size: 5vw;
+    font-family: 'Bangers', cursive;
 }
 
 
@@ -219,6 +223,8 @@ hr:before {
 #abouttxt {
     border: 2px solid rgb(138, 137, 137);
     background-color: rgb(228, 228, 228);
+    padding-top: 5px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #abouttxt p:first-letter {
@@ -243,6 +249,16 @@ hr:before {
 
 .eventcard {
     border: 5px dashed rgb(115, 116, 141);
+}
+
+.card-title {
+    font-family: 'Bangers', cursive;
+    font-size: 33px;
+}
+
+#currentAnth {
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
 }
 
 
