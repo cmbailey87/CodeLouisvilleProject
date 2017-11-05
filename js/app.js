@@ -3,9 +3,10 @@
 //add the over lay
 //$variablename for jquery objects
 
-var $overlaycovers = $('<div id="overlaycovers"></div>');
+
+var $overlaycovers = $('<div id="overlaycovers"  class="mt-md-5"></div>');
 //disembodied element from the DOM
-var $image = $("<img>");
+var $image = $('<img  class="mt-md-5 img-fluid">');
 //another diembodied element for caoption
 var $caption = $("<p></p>");
 // caption to acompany image overlay
@@ -20,9 +21,9 @@ $("body").append($overlaycovers);
 
 //user clicks on link, around the image
 //1.capture click event on image ***created ID in the top UL element named imageGallery to reference all child anchors
-$("#anthcovers a").click(function() {
+$("#anthcovers a").click(function(event) {
     event.preventDefault();
-    //*this refers to the image anchor you clicked on
+    //*""$(this)""" refers to the image anchor you clicked on
     var imagelocation = $(this).attr("href");
     //1.2 update overlay with image linked in link
     $image.attr("src", imagelocation)
@@ -60,3 +61,35 @@ $overlaycovers.click(function() {
 // 
 
 //
+
+// navbar collapser custom 
+var $navlinks = document.getElementById("navlinks");
+var $navbarToggler = document.getElementById("navbarToggler");
+var $navbarnavToggler = document.getElementById("navbarNav");
+
+// listens to anchor link clicks
+$navlinks.addEventListener("click", function() {
+    console.log("ive been clicked");
+    // toggler bootstraps custom classes when clicking on anchor links on page
+    $navbarToggler.classList.toggle("collasped");
+    $navbarnavToggler.classList.toggle("show");
+})
+
+// end navbar collasper custom
+
+
+// google calendar hide away
+
+$("#gcalbtn1").click(function() {
+    $("#gcallg").slideToggle("slow", function() {
+        // animation complete.
+    })
+})
+
+$("#gcalbtn2").click(function() {
+    $("#gcalsm").slideToggle("slow", function() {
+        // animation complete.
+    })
+})
+
+// google calrndar hide away

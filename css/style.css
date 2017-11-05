@@ -10,7 +10,7 @@ font-family: 'Monoton', cursive;                 */
 }
 
 
-/* media query for icons */
+/* icons */
 
 #iconRanch {
     display: none;
@@ -21,25 +21,37 @@ font-family: 'Monoton', cursive;                 */
 }
 
 
-/* // bigger screens */
-
-@media (max-width: 992px) {
-    #iconRanch {
-        display: inline-block;
-    }
-}
-
-
 /* /navbar */
+
+
+/* carousel styles */
 
 .carouselimgs {
     box-shadow: 5px 10px 20px rgba(107, 107, 126, 0.418), 5px 15px 20px rgba(83, 85, 116, 0.692);
+    /* margin-top: 10%; */
 }
+
+#carousel {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+
+/* /carousel styles */
+
+
+/* main header  */
 
 .mainTitle {
     font-size: 6vw;
     font-family: 'Kavoon', cursive;
 }
+
+
+/* /main header */
+
+
+/* div with images as backgroung */
 
 #firstImg {
     background-image: url('axeman3.jpg');
@@ -62,6 +74,9 @@ font-family: 'Monoton', cursive;                 */
     background-position: center center;
     box-shadow: 0 10px 20px rgba(75, 74, 74, 0.418), 0 15px 20px rgba(75, 74, 74, 0.692);
 }
+
+
+/* /div with images as backlground */
 
 
 /* bottom image flexbox */
@@ -109,14 +124,18 @@ font-family: 'Monoton', cursive;                 */
 }
 
 
+/* /end div with images as background */
+
+
 /* page breaks */
 
 hr {
     height: 30px;
     border-style: solid;
     border-color: #555555;
-    border-width: 2.5px 0 0 0;
+    border-width: 10px 0 0 0;
     border-radius: 20px;
+    position: relative;
 }
 
 hr:before {
@@ -126,8 +145,9 @@ hr:before {
     margin-top: -31px;
     border-style: solid;
     border-color: #555555;
-    border-width: 0 0 2.5px 0;
+    border-width: 0 0 10px 0;
     border-radius: 20px;
+    position: relative;
 }
 
 
@@ -228,11 +248,42 @@ hr:before {
 
 /* cal page */
 
-.gcal {
+#gcalbtn1,
+#gcalbtn2 {
     position: relative;
+    color: rgb(230, 230, 230);
+    background-color: rgb(126, 125, 125);
+    /* background: -webkit-linear-gradient(rgb(68, 150, 243), rgb(74, 7, 119)); */
+    background: linear-gradient(rgb(150, 165, 240), rgb(67, 67, 151));
+    border: 3px solid rgb(85, 85, 85);
+    border-radius: 3px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.555);
+    box-shadow: 0 0 0 rgb(53, 53, 53), 0 0 0 rgb(54, 54, 54), 0 0px 0px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    height: 50px;
 }
 
-.homeHeadersBGCal {
+#gcallg {
+    display: none;
+}
+
+#gcalsm {
+    display: none;
+}
+
+
+/* .gCalld iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+
+/* .homeHeadersBGCal {
     -webkit-transform: skew(-50deg);
     -moz-transform: skew(-50deg);
     -o-transform: skew(-50deg);
@@ -257,7 +308,7 @@ hr:before {
     padding-left: 10px;
     font-size: 5.6vw;
     font-family: 'Kavoon', cursive;
-}
+} */
 
 
 /* /cal */
@@ -383,7 +434,7 @@ hr:before {
 /* visited link */
 
 .linkStyles a:hover {
-    color: #000000;
+    color: #ff1b1b;
 }
 
 
@@ -409,15 +460,17 @@ hr:before {
     z-index: 3;
     width: 100%;
     height: 100%;
+    /* height: auto;
+    width: auto; */
 }
 
 #overlaycovers img {
-    margin-top: 1.5%;
-    height: auto;
-    width: auto;
+    margin-top: 5.2rem;
+    /* height: auto;
+    width: auto; */
     max-width: 100%;
     max-height: 100%;
-    padding: 0 5px 0 5px;
+    padding: 0 5px 0px 5px;
 }
 
 #overlaycovers p {
@@ -442,7 +495,30 @@ hr:before {
     background-size: 100%;
     opacity: 0.2;
     filter: alpha(opacity=40);
+    padding-top: 5px;
 }
 
 
 /* /bg */
+
+
+/* // bigger screens */
+
+
+/* hide divs on small screens */
+
+@media (max-width: 700px) {
+    #carousel,
+    #lcsCalDiv {
+        display: none;
+    }
+}
+
+
+/* min width */
+
+@media (min-width: 700px) {
+    #lcsCalDiv2 {
+        display: none;
+    }
+}
