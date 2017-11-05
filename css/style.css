@@ -248,8 +248,21 @@ hr:before {
 
 /* cal page */
 
-#gcalbtn1 {
+#gcalbtn1,
+#gcalbtn2 {
     position: relative;
+    color: rgb(230, 230, 230);
+    background-color: rgb(126, 125, 125);
+    /* background: -webkit-linear-gradient(rgb(68, 150, 243), rgb(74, 7, 119)); */
+    background: linear-gradient(rgb(150, 165, 240), rgb(67, 67, 151));
+    border: 3px solid rgb(85, 85, 85);
+    border-radius: 3px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.555);
+    box-shadow: 0 0 0 rgb(53, 53, 53), 0 0 0 rgb(54, 54, 54), 0 0px 0px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    height: 50px;
 }
 
 #gcallg {
