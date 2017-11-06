@@ -89,4 +89,16 @@ $calbutton.click(function() {
 
 
 
+$("#gcalbtn1").click(function() {
+    $("#gcallg").slideToggle("slow", function() {
+        // animation complete.
+    })
+})
+
+$("#gcalbtn2").click(function() {
+    $("#gcalsm").slideToggle("slow", function() {
+        // animation complete.
+    })
+})
+
 // google calrndar hide away
