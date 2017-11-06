@@ -18,8 +18,7 @@ font-family: 'Bangers', cursive; */
 }
 
 #navlinks {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 38px;
     font-family: 'Bangers', cursive;
 }
 
@@ -48,6 +47,10 @@ font-family: 'Bangers', cursive; */
 #carousel {
     /* margin-top: 50px;
     padding-top: 50px; */
+    margin-top: 89px;
+}
+
+#carouselmobile {
     margin-top: 76px;
 }
 
@@ -56,11 +59,6 @@ font-family: 'Bangers', cursive; */
 
 
 /* main header  */
-
-.mainTitle {
-    font-size: 6vw;
-    font-family: 'Bangers', cursive;
-}
 
 
 /* /main header */
@@ -176,11 +174,10 @@ hr:before {
     -moz-transform: skew(-50deg);
     -o-transform: skew(-50deg);
     transform: skew(-50deg);
-    padding: 10px 0;
     overflow: hidden;
     position: relative;
     margin-top: 50px;
-    left: -78px;
+    left: -80px;
     max-width: 90%;
     box-shadow: 10px 5px 7px rgba(54, 95, 129, 0.158), 20px 10px 9.5px rgba(47, 106, 168, 0.322);
     margin-bottom: 20px;
@@ -193,8 +190,7 @@ hr:before {
     -moz-transform: skew(50deg);
     -o-transform: skew(50deg);
     transform: skew(50deg);
-    padding-left: 10px;
-    font-size: 5vw;
+    font-size: 85px;
     font-family: 'Bangers', cursive;
 }
 
@@ -253,8 +249,21 @@ hr:before {
 
 .card-title {
     font-family: 'Bangers', cursive;
-    font-size: 33px;
+    font-size: 35px;
+    background-color: rgb(174, 175, 235);
+    padding: 2px 0 2px 0;
+    border-top: 2px solid rgb(109, 109, 109);
+    border-bottom: 2px solid rgb(110, 110, 110);
 }
+
+.cardtxt {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* .card-body {
+    background-color: rgb(192, 245, 187);
+} */
 
 #currentAnth {
     font-family: 'Bangers', cursive;
@@ -533,14 +542,28 @@ hr:before {
 
 /* leggen of the hidden temple on small screens */
 
+@media (max-width: 1200px) {
+    .homeHeaders {
+        font-size: 65px;
+    }
+}
+
+@media (max-width: 800px) {
+    .homeHeaders {
+        font-size: 50px;
+    }
+    #lcsAnth {
+        font-size: 45px;
+    }
+}
+
 @media (max-width: 700px) {
     #carousel,
     #lcsCalDiv {
         display: none;
     }
     #navlinks {
-        font-size: 18px;
-        font-weight: bold;
+        font-size: 30px;
     }
 }
 
@@ -548,7 +571,19 @@ hr:before {
 /* min width */
 
 @media (min-width: 700px) {
-    #lcsCalDiv2 {
+    #lcsCalDiv2,
+    #carouselmobile {
         display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .homeHeaders {
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    #lcsAnth {
+        font-size: 26px;
+        padding-left: 50px;
     }
 }
