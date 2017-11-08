@@ -328,6 +328,14 @@ hr:before {
     display: none;
 }
 
+#arrowdown {
+    position: relative;
+}
+
+#arrowdown:hover {
+    cursor: pointer;
+}
+
 
 /* .gCalld iframe {
     position: absolute;

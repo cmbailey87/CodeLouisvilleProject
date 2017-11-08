@@ -81,12 +81,36 @@ $navlinks.addEventListener("click", function() {
 // google calendar hide away
 
 $("#gcalbtn1").click(function() {
+    var src = ($('#arrowdown').attr('src') === 'img/downarrow.png') ?
+        'img/uparrow.png' :
+        'img/downarrow.png';
+    $('#arrowdown').attr('src', src);
+    $("#gcallg").slideToggle("slow", function() {
+        // animation complete.
+    })
+})
+
+$("#arrowdown").click(function() {
+    var src = ($(this).attr('src') === 'img/downarrow.png') ?
+        'img/uparrow.png' :
+        'img/downarrow.png';
+    $(this).attr('src', src);
     $("#gcallg").slideToggle("slow", function() {
         // animation complete.
     })
 })
 
 $("#gcalbtn2").click(function() {
+    var src = ($('#arrowdown').attr('src') === 'img/downarrow.png') ?
+        'img/uparrow.png' :
+        'img/downarrow.png';
+    $('#arrowdown').attr('src', src);
+    $("#gcalsm").slideToggle("slow", function() {
+        // animation complete.
+    })
+})
+
+$("#arrowdown").click(function() {
     $("#gcalsm").slideToggle("slow", function() {
         // animation complete.
     })
