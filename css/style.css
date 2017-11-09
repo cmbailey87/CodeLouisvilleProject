@@ -33,7 +33,7 @@ font-family: 'Bangers', cursive; */
     top: 0;
 }
 
-#navbarNav {
+#cnavbarNav {
     width: 90%;
 }
 
@@ -492,6 +492,8 @@ hr:before {
     border-top: 3px solid rgb(104, 101, 131);
     border-bottom: 5px dashed rgb(104, 101, 131);
     margin-bottom: 10px;
+    max-width: 100%;
+    background-color: rgb(206, 201, 252);
 }
 
 
