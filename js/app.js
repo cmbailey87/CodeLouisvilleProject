@@ -81,16 +81,16 @@ $navlinks.addEventListener("click", function() {
 // google calendar hide away
 
 $("#gcalbtn1").click(function() {
-    var src = ($('#arrowdown').attr('src') === 'img/downarrow.png') ?
+    var src = ($('#arrow').attr('src') === 'img/downarrow.png') ?
         'img/uparrow.png' :
         'img/downarrow.png';
-    $('#arrowdown').attr('src', src);
+    $('#arrow').attr('src', src);
     $("#gcallg").slideToggle("slow", function() {
         // animation complete.
     })
 })
 
-$("#arrowdown").click(function() {
+$("#arrow").click(function() {
     var src = ($(this).attr('src') === 'img/downarrow.png') ?
         'img/uparrow.png' :
         'img/downarrow.png';
@@ -101,16 +101,16 @@ $("#arrowdown").click(function() {
 })
 
 $("#gcalbtn2").click(function() {
-    var src = ($('#arrowdown').attr('src') === 'img/downarrow.png') ?
+    var src = ($('#arrow').attr('src') === 'img/downarrow.png') ?
         'img/uparrow.png' :
         'img/downarrow.png';
-    $('#arrowdown').attr('src', src);
+    $('#arrow').attr('src', src);
     $("#gcalsm").slideToggle("slow", function() {
         // animation complete.
     })
 })
 
-$("#arrowdown").click(function() {
+$("#arrow").click(function() {
     $("#gcalsm").slideToggle("slow", function() {
         // animation complete.
     })
