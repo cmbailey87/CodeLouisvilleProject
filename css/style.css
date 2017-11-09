@@ -328,11 +328,11 @@ hr:before {
     display: none;
 }
 
-#arrowdown {
+#arrow {
     position: relative;
 }
 
-#arrowdown:hover {
+#arrow:hover {
     cursor: pointer;
 }
 
