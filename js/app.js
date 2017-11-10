@@ -78,39 +78,37 @@ $navlinks.addEventListener("click", function() {
 // end navbar collasper custom
 
 
+// google calendar arrow and calendar reset
+
+
+// end gcal arrow and cal reset
+
+
 // google calendar hide away
 
 $("#gcalbtn1").click(function() {
-    var src = ($('#arrow').attr('src') === 'img/downarrow.png') ?
-        'img/uparrow.png' :
-        'img/downarrow.png';
-    $('#arrow').attr('src', src);
+    $('#arrowlg').toggleClass("fliplg");
     $("#gcallg").slideToggle("slow", function() {
         // animation complete.
     })
 })
 
-$("#arrow").click(function() {
-    var src = ($(this).attr('src') === 'img/downarrow.png') ?
-        'img/uparrow.png' :
-        'img/downarrow.png';
-    $(this).attr('src', src);
+$("#arrowlg").click(function() {
+    $(this).toggleClass("fliplg");
     $("#gcallg").slideToggle("slow", function() {
         // animation complete.
     })
 })
 
 $("#gcalbtn2").click(function() {
-    var src = ($('#arrow').attr('src') === 'img/downarrow.png') ?
-        'img/uparrow.png' :
-        'img/downarrow.png';
-    $('#arrow').attr('src', src);
+    $('#arrowsm').toggleClass("flipsm");
     $("#gcalsm").slideToggle("slow", function() {
         // animation complete.
     })
 })
 
-$("#arrow").click(function() {
+$("#arrowsm").click(function() {
+    $(this).toggleClass("flipsm");
     $("#gcalsm").slideToggle("slow", function() {
         // animation complete.
     })
