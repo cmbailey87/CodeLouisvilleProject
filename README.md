@@ -1,5 +1,7 @@
-# LCS - Louisville Cartoonist Society
 ![](http://i.giphy.com/KCh9Kkf2MILK0.gif)
+
+# LCS - Louisville Cartoonist Society
+
 
 
 This Repo is for Louisville Cartoonist Society Potential new replacement webpage
