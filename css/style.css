@@ -38,7 +38,7 @@ font-family: 'Bangers', cursive; */
 }
 
 #navlinks {
-    font-size: 38px;
+    font-size: 30px;
     font-family: 'Bangers', cursive;
 }
 
@@ -67,7 +67,7 @@ font-family: 'Bangers', cursive; */
 #carousel {
     /* margin-top: 50px;
     padding-top: 50px; */
-    margin-top: 89px;
+    margin-top: 77px;
 }
 
 #carouselmobile {
@@ -229,7 +229,6 @@ hr:before {
 
 .aboutrow {
     border: 5px solid rgb(100, 100, 100);
-    /* padding: 5px; */
 }
 
 #aboutimg {
@@ -478,10 +477,18 @@ hr:before {
 
 /* footer area css */
 
+h8 {
+    font-family: bold;
+}
+
+.footerlinks {
+    background-color: rgb(209, 216, 223);
+}
+
 .footercolors {
     position: relative;
-    background-color: rgb(249, 250, 209);
-    border-top: 1px solid rgb(175, 175, 175);
+    background-color: rgb(116, 116, 116);
+    border-top: 10px solid rgb(159, 157, 160);
     /* border-bottom: 3px solid rgb(175, 175, 175); */
     /* border-right: 2px solid rgb(175, 175, 175);
                     border-left: 2px solid rgb(175, 175, 175); */
@@ -499,7 +506,7 @@ hr:before {
 }
 
 .pagelinks {
-    border-top: 3px solid rgb(104, 101, 131);
+    border-top: 5px dashed rgb(104, 101, 131);
     border-bottom: 5px dashed rgb(104, 101, 131);
     margin-bottom: 10px;
     max-width: 100%;
@@ -515,7 +522,7 @@ hr:before {
 /* visited link */
 
 .linkStyles a:hover {
-    color: #ff1b1b;
+    color: #6789c7;
 }
 
 
@@ -590,7 +597,7 @@ hr:before {
         display: none;
     }
     #navlinks {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
