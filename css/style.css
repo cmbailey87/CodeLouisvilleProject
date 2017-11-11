@@ -478,7 +478,7 @@ hr:before {
 /* footer area css */
 
 h8 {
-    font-family: bold;
+    font-weight: bold;
 }
 
 .footerlinks {
@@ -489,6 +489,7 @@ h8 {
     position: relative;
     background-color: rgb(116, 116, 116);
     border-top: 4px solid rgb(159, 157, 160);
+    border-bottom: 10px solid rgb(159, 157, 160);
     /* border-bottom: 3px solid rgb(175, 175, 175); */
     /* border-right: 2px solid rgb(175, 175, 175);
                     border-left: 2px solid rgb(175, 175, 175); */
