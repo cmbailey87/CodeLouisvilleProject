@@ -35,7 +35,3 @@ there is a custom form at the bottom of the page for users to subscribe to newsl
 The site includes a bit of both jquery and Vanilla JavaScript.
 implemented for the image overlay, The toggle for the google calendar and the image flip for the arrow on the google calendar.
 
-## Still researching...
-
-The images for the overlay work great of larger and moble devices, but the txt is hidden on media sized laptops (15in and below)
-fixing this is part of the future project ... the majority of the image is there, but the bottom txt is cut off.
