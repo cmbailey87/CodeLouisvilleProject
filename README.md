@@ -35,3 +35,4 @@ there is a custom form at the bottom of the page for users to subscribe to newsl
 The site includes a bit of both jquery and Vanilla JavaScript.
 implemented for the image overlay, The toggle for the google calendar and the image flip for the arrow on the google calendar.
 
+//  ¯\_(ツ)_/¯
