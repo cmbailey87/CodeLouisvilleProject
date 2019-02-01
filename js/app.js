@@ -4,6 +4,7 @@
 //$variablename for jquery objects
 
 
+
 var $overlaycovers = $('<div id="overlaycovers"  class="mt-md-5"></div>');
 //disembodied element from the DOM
 var $image = $('<img  class="mt-md-5 img-fluid">');
@@ -58,11 +59,11 @@ $overlaycovers.click(function() {
 
 
 
-// 
+//
 
 //
 
-// navbar collapser custom 
+// navbar collapser custom
 var $navlinks = document.getElementById("navlinks");
 var $navbarToggler = document.getElementById("navbarToggler");
 var $navbarnavToggler = document.getElementById("navbarNav");

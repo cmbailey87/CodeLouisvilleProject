@@ -2,7 +2,7 @@
 
 # LCS - Louisville Cartoonist Society
 
-Like to Website : https://cmbailey87.github.io/LCS/ 
+Like to Website : https://cmbailey87.github.io/LCS/
 
 This Repo is for Louisville Cartoonist Society Potential new replacement webpage
 
@@ -22,11 +22,12 @@ Many of the "pre-canned" styles have been modified with a Custom CSS style sheet
 ## Responsiveness
 
 the site is fully mobile device responsive.
-aswell as responsive on larger screens. 
+aswell as responsive on larger screens.
 The Anthology cover gallery and google calendar sections add a bit of user itneraction
 
 ###### under construction...
 there is a custom form at the bottom of the page for users to subscribe to newsletters or contact the group via email.
+
 
 
 
