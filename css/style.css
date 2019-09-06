@@ -9,7 +9,7 @@ font-family: 'Bangers', cursive; */
 /* bg */
 
 #background {
-    background-image: url(../img/bgpage2blue.jpg);
+    background-image: url(../img/bgpage2.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat-y;
@@ -21,7 +21,7 @@ font-family: 'Bangers', cursive; */
     height: 100%;
     position: fixed;
     opacity: .5;
-    background-color: rgb(38, 130, 190);
+    /*background-color: rgb(38, 130, 190); */
 }
 
 
