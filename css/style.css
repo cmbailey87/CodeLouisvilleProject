@@ -156,7 +156,7 @@ font-family: 'Bangers', cursive; */
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.555);
     box-shadow: 0 1px 0 rgb(53, 53, 53), 0 5px 0 rgb(54, 54, 54), 0 6px 6px rgba(0, 0, 0, 0.6);
     -moz-box-shadow: 0 1px 0 rgb(53, 53, 53), 0 5px 0 rgb(54, 54, 54), 0 6px 6px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow:0 1px 0 rgb(53, 53, 53), 0 5px 0 rgb(54, 54, 54), 0 6px 6px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 1px 0 rgb(53, 53, 53), 0 5px 0 rgb(54, 54, 54), 0 6px 6px rgba(0, 0, 0, 0.6);
     cursor: pointer;
 }
 
@@ -216,6 +216,26 @@ hr:before {
     transform: skew(50deg);
     font-size: 85px;
     font-family: 'Bangers', cursive;
+}
+
+.homeHeadersBGinfo {
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+    box-shadow: 10px 5px 7px rgba(54, 95, 129, 0.158), 20px 10px 9.5px rgba(47, 106, 168, 0.322);
+    margin-bottom: 20px;
+    border: 3px solid black;
+    background: linear-gradient(to right, rgb(243, 157, 8), rgb(255, 231, 73), rgb(255, 225, 0));
+}
+
+.homeHeadersinfo {
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
+}
+
+.lcsguidelines {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 
@@ -605,7 +625,6 @@ h8 {
         font-size: 20px;
     }
 }
-
 
 
 /* min width */
